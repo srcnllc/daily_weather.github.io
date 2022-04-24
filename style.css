@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    color: #fff;
+    /* background-image: url(./img/adana.jpg); */
+    background-color: rgba(0, 0, 0, .7);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0,0,.7);
+    height: 100vh;
+}
+.header{
+    padding:50px,20px,30px,20px;
+}
+.header h1{
+    font-size: 50px;
+    color: #c03516;
+    text-shadow: 1px 3px rgba(0, 0, 0, .9);
+}
+.header #searchBar{
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #fbb034;
+    text-align: center;
+    font-size: 20px;
+    color: #fbb034;
+}
+.header option{
+    background: rgba(0, 0,0,.7);
+
+}
+.city{
+    font-size: 35px;
+    font-weight: 500px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-shadow: 1px 3px rgba(0, 0, 0, .8);
+}
+.temp{
+    font-size: 100px;
+    font-weight: 700px;
+    margin-bottom: 15px;
+    text-shadow: 1px 5px rgba(0, 0, 0, .1);
+}
+.desc{
+    font-size: 25px;
+    font-style: italic;
+    text-shadow: 1px 3px rgba(0, 0, 0, .8);
+    margin-bottom: 10px;
+
+}
+.image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.image>.img-1,.img-2,.img-3{
+    width: 350px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+}
+.image>img{
+    width: 350px;
+    height: 300px;
+}
