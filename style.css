@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 body{
-    height: 100vh;
     color: #fff;
     /* background-image: url(./img/adana.jpg); */
     background-color: rgba(0, 0, 0, .7);
@@ -21,11 +20,14 @@ body{
 }
 .header{
     padding:50px,20px,30px,20px;
+    margin-top: 50px;
 }
 .header h1{
     font-size: 50px;
     color: #c03516;
     text-shadow: 1px 3px rgba(0, 0, 0, .9);
+    margin-bottom: 10px;
+
 }
 .header #searchBar{
     width: 100%;
@@ -67,6 +69,7 @@ body{
     height: auto;
     display: flex;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 .image>.img-1,.img-2,.img-3{
     width: 350px;
@@ -77,4 +80,21 @@ body{
 .image>img{
     width: 350px;
     height: 300px;
+}
+@media screen and (max-width:1080px) {
+    .app{
+        height: auto;
+    }
+    .image{
+        display: flex;
+        flex-direction: column;
+    }
+    .image>.img-1,.img-2,.img-3{
+        margin-top: 75px;
+    }
+    .header h1{
+        font-size: 30px;
+        margin-top: 50px;
+
+    }
 }
